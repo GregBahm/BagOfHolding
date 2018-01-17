@@ -799,6 +799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RightHand: {fileID: 765442079}
+  LeftHand: {fileID: 1295382363}
 --- !u!1 &2054168793
 GameObject:
   m_ObjectHideFlags: 0
