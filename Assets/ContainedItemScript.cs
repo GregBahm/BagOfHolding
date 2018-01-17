@@ -42,6 +42,10 @@ public class ContainedItemScript : MonoBehaviour
 
     private void ContainWithinWalls()
     {
+        if(transform.parent != Container.transform.parent)
+        {
+            return;
+        }
         float maxX = -transform.localScale.x / 2;
         float minX = transform.localScale.x / 2  - Container.transform.localScale.x;
 
