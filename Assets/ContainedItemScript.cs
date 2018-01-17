@@ -17,61 +17,48 @@ public class ContainedItemScript : MonoBehaviour
         _meshRender = GetComponent<MeshRenderer>();
         _mat = _meshRender.material;
     }
-
+    
     private void Update()
     {
         if(_isInContainer)
         {
-            ContainWithinContainerWalls();
-            _isInContainer = !IsOutOfContainer();
+            ContainWithinWalls();
+            if(IsOutOfContainer())
+            {
+                _isInContainer = false;
+                transform.SetParent(null, true);
+            }
         }
         else
         {
-            _isInContainer = IsBackInContainer();
+            if(IsBackInContainer())
+            {
+                _isInContainer = true;
+                transform.SetParent(Container.transform.parent, true);
+            }
         }
         _mat.SetFloat("_IsOutOfContainer", _isInContainer ? 0 : 1);
     }
 
-    private void ContainWithinContainerWalls()
+    private void ContainWithinWalls()
     {
-        float leftObjectSide = transform.localPosition.x + transform.localScale.x / 2;
-        float rightObjectSide = transform.localPosition.x - transform.localScale.x / 2;
-        float leftWall = 0;
-        float rightWall = -Container.transform.lossyScale.x;
-        if (leftObjectSide > leftWall)
-        {
-            transform.localPosition = new Vector3(leftWall - transform.localScale.x / 2, transform.localPosition.y, transform.localPosition.z);
-        }
-        if (rightObjectSide < rightWall)
-        {
-            transform.localPosition = new Vector3(rightWall + transform.localScale.x / 2, transform.localPosition.y, transform.localPosition.z);
-        }
+        float maxX = -transform.localScale.x / 2;
+        float minX = transform.localScale.x / 2  - Container.transform.localScale.x;
 
+        float maxZ = -transform.localScale.z / 2 + Container.transform.lossyScale.z / 2;
+        float minZ = transform.localScale.z / 2 - Container.transform.lossyScale.z / 2;
+        
+        float minY = transform.localScale.y / 2 - Container.transform.lossyScale.y;
 
-        float frontObjectSide = transform.localPosition.z + transform.localScale.z / 2;
-        float backObjectSide = transform.localPosition.z - transform.localScale.z / 2;
-        float frontWall = Container.transform.lossyScale.z / 2;
-        float backWall = -Container.transform.lossyScale.z / 2;
-        if (frontObjectSide > frontWall)
-        {
-            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, frontWall - transform.localScale.z / 2);
-        }
-        if (backObjectSide < backWall)
-        {
-            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, backWall + transform.localScale.z / 2);
-        }
-
-        float bottomObjectSide = transform.localPosition.y - transform.localScale.y / 2;
-        float bottomWall = -Container.transform.lossyScale.y;
-        if (bottomObjectSide < bottomWall)
-        {
-            transform.localPosition = new Vector3(transform.localPosition.x, bottomWall + transform.localScale.y / 2, transform.localPosition.z);
-        }
+        float newX = Mathf.Clamp(transform.localPosition.x, minX, maxX);
+        float newY = Mathf.Max(minY, transform.localPosition.y);
+        float newZ = Mathf.Clamp(transform.localPosition.z, minZ, maxZ);
+        transform.localPosition = new Vector3(newX, newY, newZ);
     }
 
     private bool IsBackInContainer()
     {
-        return false;
+        return Container.bounds.Contains(transform.position) ;
     }
     
     private bool IsOutOfContainer()

@@ -37,8 +37,7 @@
 				float3 normal : NORMAL;
 			};
 
-			sampler2D _MainTex;
-			float4 _MainTex_ST;
+			float _IsOutOfContainer;
 			
 			v2f vert (appdata v)
 			{
@@ -51,6 +50,7 @@
 			
 			fixed4 frag (v2f i) : SV_Target
 			{
+				//clip(.5 - _IsOutOfContainer);
 				return fixed4(i.normal, 1) / 2 + .5;
 			}
 			ENDCG

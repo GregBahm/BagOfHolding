@@ -4,4 +4,8 @@
 /BagOfHolding.Editor.csproj
 /BagOfHolding.Plugins.csproj
 /BagOfHolding.sln
+/obj/
+/UnityPackageManager/
+/Assembly-CSharp.csproj
+/Packages/
 /.vs/
