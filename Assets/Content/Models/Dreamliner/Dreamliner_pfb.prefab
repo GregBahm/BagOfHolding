@@ -1,0 +1,420 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000 #> Definition for 'Scene Reference ID'
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0} #> Null File ID
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0} #> Null File ID
+  m_RootGameObject: {fileID: 1292266117923334} #> Game Object: 'Dreamliner_pfb'
+  m_IsPrefabParent: 1
+--- !u!1 &1066419437036912 #> Definition for Game Object: 'JetEngineL_MeshPart1'
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4686912246308474} #> Game Object: 'JetEngineL_MeshPart1'; Component: 'Transform'
+  - component: {fileID: 33492391803270028} #> Game Object: 'JetEngineL_MeshPart1'; Component: 'MeshFilter'
+  - component: {fileID: 23784122948340048} #> Game Object: 'JetEngineL_MeshPart1'; Component: 'MeshRenderer'
+  m_Layer: 0
+  m_Name: JetEngineL_MeshPart1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0} #> Null File ID
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1125298150535728 #> Definition for Game Object: 'JetEngineR'
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4818479831234572} #> Game Object: 'JetEngineR'; Component: 'Transform'
+  m_Layer: 0
+  m_Name: JetEngineR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0} #> Null File ID
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1292266117923334 #> Definition for Game Object: 'Dreamliner_pfb'
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4166841331003648} #> Game Object: 'Dreamliner_pfb'; Component: 'Transform'
+  - component: {fileID: 33115653816171468} #> Game Object: 'Dreamliner_pfb'; Component: 'MeshFilter'
+  - component: {fileID: 23732771204219712} #> Game Object: 'Dreamliner_pfb'; Component: 'MeshRenderer'
+  m_Layer: 0
+  m_Name: Dreamliner_pfb
+  m_TagString: Untagged
+  m_Icon: {fileID: 0} #> Null File ID
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1413252147419116 #> Definition for Game Object: 'JetEngineL'
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4670409767952188} #> Game Object: 'JetEngineL'; Component: 'Transform'
+  m_Layer: 0
+  m_Name: JetEngineL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0} #> Null File ID
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1514085512128702 #> Definition for Game Object: 'JetEngineL_MeshPart0'
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4759596325209026} #> Game Object: 'JetEngineL_MeshPart0'; Component: 'Transform'
+  - component: {fileID: 33592666057538956} #> Game Object: 'JetEngineL_MeshPart0'; Component: 'MeshFilter'
+  - component: {fileID: 23217881310609500} #> Game Object: 'JetEngineL_MeshPart0'; Component: 'MeshRenderer'
+  m_Layer: 0
+  m_Name: JetEngineL_MeshPart0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0} #> Null File ID
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1776528612311090 #> Definition for Game Object: 'JetEngineR_MeshPart0'
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4319817974701294} #> Game Object: 'JetEngineR_MeshPart0'; Component: 'Transform'
+  - component: {fileID: 33152632473422118} #> Game Object: 'JetEngineR_MeshPart0'; Component: 'MeshFilter'
+  - component: {fileID: 23400603369653408} #> Game Object: 'JetEngineR_MeshPart0'; Component: 'MeshRenderer'
+  m_Layer: 0
+  m_Name: JetEngineR_MeshPart0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0} #> Null File ID
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1931472420718532 #> Definition for Game Object: 'JetEngineR_MeshPart1'
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4702218972812642} #> Game Object: 'JetEngineR_MeshPart1'; Component: 'Transform'
+  - component: {fileID: 33000044291929828} #> Game Object: 'JetEngineR_MeshPart1'; Component: 'MeshFilter'
+  - component: {fileID: 23788209507686358} #> Game Object: 'JetEngineR_MeshPart1'; Component: 'MeshRenderer'
+  m_Layer: 0
+  m_Name: JetEngineR_MeshPart1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0} #> Null File ID
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4166841331003648 #> Definition for Game Object: 'Dreamliner_pfb'; Component: 'Transform'
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  m_GameObject: {fileID: 1292266117923334} #> Game Object: 'Dreamliner_pfb'
+  m_LocalRotation: {x: 0.0000018099951, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4670409767952188} #> Game Object: 'JetEngineL'; Component: 'Transform'
+  - {fileID: 4818479831234572} #> Game Object: 'JetEngineR'; Component: 'Transform'
+  m_Father: {fileID: 0} #> Null File ID
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4319817974701294 #> Definition for Game Object: 'JetEngineR_MeshPart0'; Component: 'Transform'
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  m_GameObject: {fileID: 1776528612311090} #> Game Object: 'JetEngineR_MeshPart0'
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4818479831234572} #> Game Object: 'JetEngineR'; Component: 'Transform'
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4670409767952188 #> Definition for Game Object: 'JetEngineL'; Component: 'Transform'
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  m_GameObject: {fileID: 1413252147419116} #> Game Object: 'JetEngineL'
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.6661744, y: 2.2214298, z: 8.209502}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4759596325209026} #> Game Object: 'JetEngineL_MeshPart0'; Component: 'Transform'
+  - {fileID: 4686912246308474} #> Game Object: 'JetEngineL_MeshPart1'; Component: 'Transform'
+  m_Father: {fileID: 4166841331003648} #> Game Object: 'Dreamliner_pfb'; Component: 'Transform'
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4686912246308474 #> Definition for Game Object: 'JetEngineL_MeshPart1'; Component: 'Transform'
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  m_GameObject: {fileID: 1066419437036912} #> Game Object: 'JetEngineL_MeshPart1'
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4670409767952188} #> Game Object: 'JetEngineL'; Component: 'Transform'
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4702218972812642 #> Definition for Game Object: 'JetEngineR_MeshPart1'; Component: 'Transform'
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  m_GameObject: {fileID: 1931472420718532} #> Game Object: 'JetEngineR_MeshPart1'
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4818479831234572} #> Game Object: 'JetEngineR'; Component: 'Transform'
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4759596325209026 #> Definition for Game Object: 'JetEngineL_MeshPart0'; Component: 'Transform'
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  m_GameObject: {fileID: 1514085512128702} #> Game Object: 'JetEngineL_MeshPart0'
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4670409767952188} #> Game Object: 'JetEngineL'; Component: 'Transform'
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4818479831234572 #> Definition for Game Object: 'JetEngineR'; Component: 'Transform'
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  m_GameObject: {fileID: 1125298150535728} #> Game Object: 'JetEngineR'
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.6661687, y: 2.2214298, z: 8.209508}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4319817974701294} #> Game Object: 'JetEngineR_MeshPart0'; Component: 'Transform'
+  - {fileID: 4702218972812642} #> Game Object: 'JetEngineR_MeshPart1'; Component: 'Transform'
+  m_Father: {fileID: 4166841331003648} #> Game Object: 'Dreamliner_pfb'; Component: 'Transform'
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23217881310609500 #> Definition for Game Object: 'JetEngineL_MeshPart0'; Component: 'MeshRenderer'
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  m_GameObject: {fileID: 1514085512128702} #> Game Object: 'JetEngineL_MeshPart0'
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1023ae3145895b74d8fd030d07acc340, type: 2} #> File: 'JetEngine_mat.mat'; Not found
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0} #> Null File ID
+  m_ProbeAnchor: {fileID: 0} #> Null File ID
+  m_LightProbeVolumeOverride: {fileID: 0} #> Null File ID
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0} #> Null File ID
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23400603369653408 #> Definition for Game Object: 'JetEngineR_MeshPart0'; Component: 'MeshRenderer'
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  m_GameObject: {fileID: 1776528612311090} #> Game Object: 'JetEngineR_MeshPart0'
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1023ae3145895b74d8fd030d07acc340, type: 2} #> File: 'JetEngine_mat.mat'; Not found
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0} #> Null File ID
+  m_ProbeAnchor: {fileID: 0} #> Null File ID
+  m_LightProbeVolumeOverride: {fileID: 0} #> Null File ID
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0} #> Null File ID
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23732771204219712 #> Definition for Game Object: 'Dreamliner_pfb'; Component: 'MeshRenderer'
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  m_GameObject: {fileID: 1292266117923334} #> Game Object: 'Dreamliner_pfb'
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 19c3e0d33cfc89e41b0e32881c217868, type: 2} #> File: 'Dreamliner_mat.mat'; Not found
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0} #> Null File ID
+  m_ProbeAnchor: {fileID: 0} #> Null File ID
+  m_LightProbeVolumeOverride: {fileID: 0} #> Null File ID
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0} #> Null File ID
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23784122948340048 #> Definition for Game Object: 'JetEngineL_MeshPart1'; Component: 'MeshRenderer'
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  m_GameObject: {fileID: 1066419437036912} #> Game Object: 'JetEngineL_MeshPart1'
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1023ae3145895b74d8fd030d07acc340, type: 2} #> File: 'JetEngine_mat.mat'; Not found
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0} #> Null File ID
+  m_ProbeAnchor: {fileID: 0} #> Null File ID
+  m_LightProbeVolumeOverride: {fileID: 0} #> Null File ID
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0} #> Null File ID
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23788209507686358 #> Definition for Game Object: 'JetEngineR_MeshPart1'; Component: 'MeshRenderer'
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  m_GameObject: {fileID: 1931472420718532} #> Game Object: 'JetEngineR_MeshPart1'
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1023ae3145895b74d8fd030d07acc340, type: 2} #> File: 'JetEngine_mat.mat'; Not found
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0} #> Null File ID
+  m_ProbeAnchor: {fileID: 0} #> Null File ID
+  m_LightProbeVolumeOverride: {fileID: 0} #> Null File ID
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0} #> Null File ID
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33000044291929828 #> Definition for Game Object: 'JetEngineR_MeshPart1'; Component: 'MeshFilter'
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  m_GameObject: {fileID: 1931472420718532} #> Game Object: 'JetEngineR_MeshPart1'
+  m_Mesh: {fileID: 4300016, guid: b5e7f62639b4f0545ab6d8984c885c97, type: 3} #> File: 'Dreamliner_msh.fbx'; Not found
+--- !u!33 &33115653816171468 #> Definition for Game Object: 'Dreamliner_pfb'; Component: 'MeshFilter'
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  m_GameObject: {fileID: 1292266117923334} #> Game Object: 'Dreamliner_pfb'
+  m_Mesh: {fileID: 4300000, guid: b5e7f62639b4f0545ab6d8984c885c97, type: 3} #> File: 'Dreamliner_msh.fbx'; Not found
+--- !u!33 &33152632473422118 #> Definition for Game Object: 'JetEngineR_MeshPart0'; Component: 'MeshFilter'
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  m_GameObject: {fileID: 1776528612311090} #> Game Object: 'JetEngineR_MeshPart0'
+  m_Mesh: {fileID: 4300014, guid: b5e7f62639b4f0545ab6d8984c885c97, type: 3} #> File: 'Dreamliner_msh.fbx'; Not found
+--- !u!33 &33492391803270028 #> Definition for Game Object: 'JetEngineL_MeshPart1'; Component: 'MeshFilter'
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  m_GameObject: {fileID: 1066419437036912} #> Game Object: 'JetEngineL_MeshPart1'
+  m_Mesh: {fileID: 4300012, guid: b5e7f62639b4f0545ab6d8984c885c97, type: 3} #> File: 'Dreamliner_msh.fbx'; Not found
+--- !u!33 &33592666057538956 #> Definition for Game Object: 'JetEngineL_MeshPart0'; Component: 'MeshFilter'
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0} #> Null File ID
+  m_PrefabInternal: {fileID: 100100000} #> Scene Reference ID
+  m_GameObject: {fileID: 1514085512128702} #> Game Object: 'JetEngineL_MeshPart0'
+  m_Mesh: {fileID: 4300010, guid: b5e7f62639b4f0545ab6d8984c885c97, type: 3} #> File: 'Dreamliner_msh.fbx'; Not found
